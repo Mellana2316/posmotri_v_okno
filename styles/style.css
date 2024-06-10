@@ -60,6 +60,7 @@ ol {
 
 .content {
   display: flex;
+  width: 1140px;
   column-gap: 30px;
   align-items: center;
 }
@@ -162,19 +163,13 @@ ol {
 
 .content__list {
   display: block;
-  width: 394px;
   height: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
   position: relative;
 }
-/* overflow-x:hidden - единственный способ убрать горизональный скролл, 
-который я смогла придумать, не нарушая целостность размеров из макета.
-В связи с появлением вертикального скролла справа часть карточки "съедается", 
-что вызывает горизонтальный скролл. В макете и данных размерах вертикальный скролл не учтен */
 
 .content__details {
-  width: 399px;
+  width: 100%;
   padding-bottom: 17px;
 }
 
